@@ -1,0 +1,24 @@
+﻿start_sec,end_sec,NE_straight,NE_left,SW_straight,SW_left,crosswalk,confidence,note
+0,19,RED,OFF,RED,GREEN,GREEN,INFERRED,영상 시작 시 좌회전·횡단보도 진행 중
+19,22,RED,OFF,RED,YELLOW,RED,INFERRED,가까워지는 방향 좌회전 황색 3초 및 횡단보도 종료
+22,118,GREEN,OFF,GREEN,RED,RED,HIGH,양방향 직진 녹색
+118,121,YELLOW,OFF,YELLOW,RED,RED,HIGH,양방향 직진 황색 3초
+121,121.2,RED,OFF,RED,RED,RED,INFERRED,직진 적색 후 좌회전·횡단보도 시작 전 0.2초 전체 적색
+121.2,159,RED,OFF,RED,GREEN,GREEN,INFERRED,가까워지는 방향 좌회전과 횡단보도 동시 진행
+159,162,RED,OFF,RED,YELLOW,RED,INFERRED,"좌회전 황색 3초, 횡단보도 종료"
+162,258,GREEN,OFF,GREEN,RED,RED,HIGH,반복 주기: 양방향 직진 녹색
+258,261,YELLOW,OFF,YELLOW,RED,RED,MEDIUM,반복 주기: 양방향 직진 황색 3초
+261,261.2,RED,OFF,RED,RED,RED,INFERRED,직진 적색 후 좌회전·횡단보도 시작 전 0.2초 전체 적색
+261.2,299,RED,OFF,RED,GREEN,GREEN,INFERRED,좌회전·횡단보도 동시 진행
+299,302,RED,OFF,RED,YELLOW,RED,INFERRED,"좌회전 황색 3초, 횡단보도 종료"
+302,398,GREEN,OFF,GREEN,RED,RED,HIGH,반복 주기: 양방향 직진 녹색
+398,401,YELLOW,OFF,YELLOW,RED,RED,MEDIUM,반복 주기: 양방향 직진 황색 3초
+401,401.2,RED,OFF,RED,RED,RED,INFERRED,직진 적색 후 좌회전·횡단보도 시작 전 0.2초 전체 적색
+401.2,439,RED,OFF,RED,GREEN,GREEN,INFERRED,좌회전·횡단보도 동시 진행
+439,442,RED,OFF,RED,YELLOW,RED,INFERRED,"좌회전 황색 3초, 횡단보도 종료"
+442,538,GREEN,OFF,GREEN,RED,RED,HIGH,반복 주기: 양방향 직진 녹색
+538,541,YELLOW,OFF,YELLOW,RED,RED,MEDIUM,반복 주기: 양방향 직진 황색 3초
+541,541.2,RED,OFF,RED,RED,RED,INFERRED,직진 적색 후 좌회전·횡단보도 시작 전 0.2초 전체 적색
+541.2,579,RED,OFF,RED,GREEN,GREEN,INFERRED,좌회전·횡단보도 동시 진행
+579,582,RED,OFF,RED,YELLOW,RED,INFERRED,"좌회전 황색 3초, 횡단보도 종료"
+582,600,GREEN,OFF,GREEN,RED,RED,HIGH,영상 종료까지 양방향 직진 녹색
